@@ -10,7 +10,7 @@ include = ["**/*.py"]
 
 [project]
 name = "em_oai"
-version = "0.0.0.3"
+version = "0.0.0.4"
 changes= "CHANGES.md"
 authors = [
   { name="Dr. Eros Montin, PhD", email="eros.montin@gmail.com" },
@@ -23,7 +23,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = ["pygrappa","matplotlib","scipy","numpy","pynico_eros_montin @ git+https://github.com/erosmontin/pynico.git","pyable_eros_montin @ git+https://github.com/erosmontin/pyable.git"]
+dependencies = ["matplotlib","scipy","numpy","pynico_eros_montin @ git+https://github.com/erosmontin/pynico.git","pyable_eros_montin @ git+https://github.com/erosmontin/pyable.git"]
 
 [project.urls]
 "Homepage" = "https://github.com/erosmontin/em_oai"
